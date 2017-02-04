@@ -18,3 +18,8 @@ until num % 2 == 0
     num = gets.chomp.to_i
 end
 puts "The even number is #{num}"
+
+for num in 1 . . 10
+    print "#{num}"
+end
+puts
